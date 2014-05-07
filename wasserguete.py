@@ -11,7 +11,6 @@ import sys
 import glob
 import numpy as np
 import pprint
-import pyodbc
 import pickle
 import colorsys
 import datetime

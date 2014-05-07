@@ -6,6 +6,7 @@ zip_dir=data/zip
 mdb_dir=data/mdb
 csv_dir=data/csv
 
+# Download zipped MS Access databases
 if [ ! -d $zip_dir ]; then
   mkdir -p $zip_dir
   cd $zip_dir
@@ -28,6 +29,7 @@ if [ ! -d $zip_dir ]; then
   cd -
 fi
 
+# Unzip the databases
 if [ ! -d $mdb_dir ]; then
 	mkdir -p $mdb_dir
 	for zip in $(ls $zip_dir/*.zip); do
@@ -35,6 +37,7 @@ if [ ! -d $mdb_dir ]; then
 	done
 fi
 
+# Convert the databases into csv
 if [ ! -d $csv_dir ]; then
   for mdb in $(ls $mdb_dir/*.mdb); do
     echo $mdb":"
