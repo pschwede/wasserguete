@@ -12,6 +12,13 @@ Usage
 2. Run `wasserguete.py` to render a bunch of diagrams.
 
 
+Requirements
+------------
+
+* mdb-tools
+* matplotlib
+
+
 License
 -------
-Released under GPL 2014 by pschwede
+Released 2014 under GPL 3.0 by pschwede
