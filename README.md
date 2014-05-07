@@ -15,7 +15,7 @@ Usage
 Requirements
 ------------
 
-* mdb-tools
+* mdbtools
 * matplotlib
 
 
