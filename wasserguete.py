@@ -2,6 +2,9 @@
 
 # -*- coding: utf-8 -*-
 
+""" Wasserguete.py (c) 2014 pschwede, licensed under GPL 3.0
+"""
+
 import gc
 import csv
 import sys
